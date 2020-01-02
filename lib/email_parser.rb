@@ -8,7 +8,7 @@ class EmailAddressParser
 
   def parse
     newEmail = []
-    newEmail.push(email.split(",").chomp)
+    newEmail.push(email.split(",").chomp())
     newEmail
   end
 
