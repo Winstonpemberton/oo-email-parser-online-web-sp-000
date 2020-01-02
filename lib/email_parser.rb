@@ -3,7 +3,8 @@ class EmailAddressParser
   attr_accessor :email
 
   def parse
-    newEmail = email.split(",")
+    newEmail = []
+    newEmail.push(email.split(","))
     newEmail
   end
 
